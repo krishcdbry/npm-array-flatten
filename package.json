@@ -1,0 +1,29 @@
+{
+  "name": "npm-array-flatten",
+  "version": "1.0.0",
+  "description": "Receives multilevel array as an input and flattens it into one dimensional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishcdbry/npm-array-flatten.git"
+  },
+  "keywords": [
+    "array-flatten",
+    "flatten-array",
+    "array",
+    "flat",
+    "one-dimensional",
+    "flatten",
+    "flat",
+    "arrayflat"
+  ],
+  "author": "krishcdbry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishcdbry/npm-array-flatten/issues"
+  },
+  "homepage": "https://github.com/krishcdbry/npm-array-flatten#readme"
+}
