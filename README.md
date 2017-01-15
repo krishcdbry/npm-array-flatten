@@ -16,10 +16,9 @@ var arrayFlatten = require('npm-array-flatten');
 
 Receives the nested input array and makes it into single dimensional. 
 ```javascript
- var inputArray = [1,2,3,4,[5,[6, 12,21, [1,2,3], 5],7,8,9];
- var position = 2;
+ var inputArray = [1,2,3,4,[5,[6,12,21,[1,2,3],5],9],7,8,9];
  arrayFlatten.flat(inputArray)  
- //  [1,2,3,4,5,6,12,21,1,2,3,5,7,8,9]
+ //  [1,2,3,4,5,6,12,21,1,2,3,5,9,7,8,9]
 ```
 
 

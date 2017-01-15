@@ -25,9 +25,9 @@ exports.magikflat = flattenArrayMagik;
  *
  * @usage
  * var arrayFlatten = require('npm-array-flatten')
- * var inputArray = [1,2,3,4,[5,[6, 12,21, [1,2,3], 5],7,8,9];
+ * var inputArray = [1,2,3,4,[5,[6,12,21,[1,2,3],5],9],7,8,9];;
  *
- * arrayFlatten.flat(inputArray, 2)  //  [1,2,3,4,5,6,12,21,1,2,3,5,7,8,9]
+ * arrayFlatten.flat(inputArray, 2)  //  [1,2,3,4,5,6,12,21,1,2,3,5,9,7,8,9]
  */
 function flattenArray(data) {
 	var opt = [];
@@ -55,9 +55,9 @@ function flattenArray(data) {
  *
  * @usage
  * var arrayFlatten = require('npm-array-flatten')
- * var inputArray = [1,2,3,4,[5,[6, 12,21, [1,2,3], 5],7,8,9];
+ * var inputArray = [1,2,3,4,[5,[6,12,21,[1,2,3],5],9],7,8,9];;
  *
- * arrayFlatten.magikflat(inputArray, 2)  //  [1,2,3,4,5,6,12,21,1,2,3,5,7,8,9]
+ * arrayFlatten.magikflat(inputArray, 2)  //  [1,2,3,4,5,6,12,21,1,2,3,5,9,7,8,9]
  */
 function flattenArrayMagik(data) {
 	return Array.prototype.toString.call(data).split(",").map(Number);
