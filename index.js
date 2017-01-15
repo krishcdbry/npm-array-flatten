@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * Receives multilevel array as an input and flattens it into one dimensional.
+ * Receives multilevel nested array as an input and flattens it into one dimensional.
  *
  * @module array-flatten
  * @typicalname arrayFlatten
