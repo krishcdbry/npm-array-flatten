@@ -1,7 +1,7 @@
 {
   "name": "npm-array-flatten",
   "version": "1.0.3",
-  "description": "Receives multilevel array as an input and flattens it into one dimensional.",
+  "description": "Receives multilevel nested array as an input and flattens it into one dimensional.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
