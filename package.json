@@ -1,6 +1,6 @@
 {
   "name": "npm-array-flatten",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Receives multilevel array as an input and flattens it into one dimensional.",
   "main": "index.js",
   "scripts": {
