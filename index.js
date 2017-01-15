@@ -3,12 +3,16 @@
 /**
  * Receives multilevel nested array as an input and flattens it into one dimensional.
  *
- * @module array-flatten
+ * @module arrayFlatten
  * @typicalname arrayFlatten
  * @example
  * var flatArray = require('array-flatten')
  */
 
+
+/**
+ * Expose `arrayFlatten`.
+ */
 
 exports.flat = flattenArray;
 exports.magikflat = flattenArrayMagik;
@@ -16,8 +20,8 @@ exports.magikflat = flattenArrayMagik;
 /**
  * @name flattenArray
  * @typicalname flattenArray
- * @param {array} data  - Input array data
- * @return {array}
+ * @param {Array} data  - Input array data
+ * @return {Array}
  *
  * @usage
  * var arrayFlatten = require('npm-array-flatten')
@@ -46,8 +50,8 @@ function flattenArray(data) {
 /**
  * @name flattenArrayMagik
  * @typicalname flattenArrayMagik
- * @param {array} data  - Input array data
- * @return {array}
+ * @param {Array} data  - Input array data
+ * @return {Array}
  *
  * @usage
  * var arrayFlatten = require('npm-array-flatten')
